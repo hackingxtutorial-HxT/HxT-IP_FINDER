@@ -1,4 +1,4 @@
-print ("\033[91m")
+print ("\033[93m")
 import socket
 
 def get_ip_address(url):
@@ -17,7 +17,7 @@ def main():
         print(" ")
         print("\033[91mDISCLAIMER - THIS TOOL IS ILLEGAL & IT'S ONLY FOR EDUCATION PURPOSE !  USE  IT AT YOUR OWN RISK , I AM NOT RESPONSIBLE FOR YOUR ACTION !\033[0m")
         print(" ")
-        print("\033[91mIP Address:", ip_address)
+        print("\033[97mIP Address:", ip_address)
         print(" ")
         next_url = input("DO YOU WANT ENTER ANOTHER URL? (y/n): ")
         if next_url.lower() != "y":
